@@ -1,4 +1,4 @@
-https://github.com/JamesMcGorty/DWS1/tree/gh-pages
+https://github.com/JamesMcGorty/DWS1/blob/gh-pages/index2.html
 
-http://jamesmcgorty.github.io/DWS1/james_mcogrty_project1.html
+file:///C:/Users/James/Documents/school/dsw1/mcgorty-james-project1/index2.html#whaticon
 
