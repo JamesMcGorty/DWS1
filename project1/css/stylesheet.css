@@ -18,13 +18,17 @@ p {
 .page{
 	background: linear-gradient(#FFFFFF, #999999);
 	border-radius: 25px;
+	box-shadow: 5px 5px 5px #373636;
 }
 
 #wordcolor{
-	background: #FC0;
+	background: #FFCC00;
+
 }
 .wc{
-	color: red;
+	margin-left: 50px;
+	color: #FF0000;
+	margin-right: 670px;
 }
 
 
@@ -32,14 +36,16 @@ h1 {
 	color: #232323;
 	text-align:center;
 	background-color: #FF0004;
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Courier New, Verdana, sans-serif;
 	text-shadow: 2px 2px 2px #6C6C6C;
+	
 }
 
 h2 {
 	color: #232323;
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Courier New, Verdana, sans-serif;
 	text-shadow: 2px 2px 2px #6C6C6C;
+	font-style: italic;
 }
 
 
@@ -48,6 +54,7 @@ h3 {
 	color: #232323;
 	font-family: Arial, Verdana, sans-serif;
 	text-shadow: 2px 2px 2px #6C6C6C;
+	font-size: 25px;
 }
 
 
@@ -90,6 +97,10 @@ a:a1:hover {
 
 #topnav {
 	list-style-type: none;
-	display: inline-block;
-	
+	display: inline;
 }
+
+.tn {
+	display: inline;
+}
+
