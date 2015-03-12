@@ -4,6 +4,7 @@ body {
 	width: 950px;
 	margin-left: 100px;
 	margin-right: 100px;
+	padding: 10px;
 }
 
 #colorp{
@@ -100,7 +101,5 @@ a:a1:hover {
 	display: inline;
 }
 
-.tn {
-	display: inline;
-}
+
 
