@@ -132,3 +132,8 @@ format('TTF');
     src: url('fonts/Hawaii.TTF');
 format('TTF');
 }
+
+li {
+	display: inline;
+	
+}
