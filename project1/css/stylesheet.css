@@ -89,6 +89,7 @@ a:a1:hover {
 }
 
 #topnav {
+	list-style-type: none;
 	display: inline-block;
 	
 }
