@@ -16,7 +16,8 @@ p {
 }
 
 .page{
-	background: linear-gradient(#FFF, #999);
+	background: linear-gradient(#FFFFFF, #999999);
+	border-radius: 25px;
 }
 
 #wordcolor{
