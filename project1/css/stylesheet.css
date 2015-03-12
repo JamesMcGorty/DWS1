@@ -101,5 +101,8 @@ a:a1:hover {
 	display: inline;
 }
 
-
+a.tn:hover {
+	color: #00FF00;
+	display: inline-block;
+}
 
