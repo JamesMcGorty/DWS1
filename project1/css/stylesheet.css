@@ -13,7 +13,8 @@ body {
 
 
 p {
-	width: 700px;
+	margin-left:40px;
+	width: 600px;
 }
 
 .page{
@@ -55,7 +56,7 @@ h3 {
 	color: #232323;
 	font-family: slant, Verdana, sans-serif;
 	text-shadow: 2px 2px 2px #6C6C6C;
-	font-size: 25px;
+	font-size: 35px;
 }
 
 
