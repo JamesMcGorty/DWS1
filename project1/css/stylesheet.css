@@ -102,10 +102,6 @@ a:a1:hover {
 	border:none;
 }
 
-#topnav {
-	list-style-type: none;
-	display: inline;
-}
 
 a.tn:hover {
 	color: #00FF00;
