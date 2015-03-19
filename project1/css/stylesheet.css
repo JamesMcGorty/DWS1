@@ -156,9 +156,9 @@ a:visited {
 @font-face {
     font-family: 'slant';
     src: url('../fonts/SLANT.woff');
-format('TTF');
+format('woff');
 	font-family: 'hawaii';
-    src: url('../fonts/Hawaii.woff');
+    src: url('../fonts/Hawaii.TTF');
 format('TTF');
 }
 
