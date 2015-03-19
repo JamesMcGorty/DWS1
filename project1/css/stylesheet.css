@@ -154,12 +154,9 @@ a:visited {
 
 /* custom font */
 @font-face {
-    font-family: 'slant';
+    font-family: 'SLANT';
     src: url('../fonts/SLANT.woff');
 format('woff');
-	font-family: 'hawaii';
-    src: url('../fonts/Hawaii.TTF');
-format('TTF');
 }
 
 /* uses icon */
