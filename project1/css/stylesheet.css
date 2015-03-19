@@ -1,4 +1,4 @@
-@charset "utf-8";
+
 /* CSS Document */
 body {
 	background-image: url("../images/bg.gif");
@@ -84,6 +84,7 @@ h3 {
 /* the ordered lists under diffent consoles and different genres */
 ol{ 
 	 list-style-type: upper-roman;
+	 margin-left: 5%;
 
 }
 
