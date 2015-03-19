@@ -86,16 +86,23 @@ a.a2 {
 	
 }
 
-a.a2:hover {
-	border: 2px solid black;
-}
-
-
 a.a1 {
 	color: #FF0004;
 	border:none;
 	padding:4%;
 	
+}
+
+a:link {
+	color: #000000;
+}
+
+a:visited {
+	color: #000099;
+}
+
+a.a2:hover {
+	border: 2px solid black;
 }
 
 a:a1:hover {
@@ -116,9 +123,7 @@ a:visited {
 	color: #000099;
 }
 
-a:link {
-	color: #000000;
-}
+
 
 @font-face {
     font-family: 'slant';
