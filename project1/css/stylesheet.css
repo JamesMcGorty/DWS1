@@ -4,7 +4,7 @@ body {
 	background-image: url("../images/bg.gif");
 }
 
-
+/* this is the paragraph sttings */
 p {
 	width: 60%;
 	font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +15,12 @@ p {
 	
 }
 
+/* different console paragraph settings */
+#dcpara{
+	margin-left: 5%;
+}
+
+/* this is for the center part of the page with all the content */
 .page{
 	border-radius: 25px;
 	float: right;
@@ -23,14 +29,18 @@ p {
 	margin-right: 10%;
 }
 
+/* this it for the color in the first paragraph */
 #colorp{
 	color:#CC3300;
 }
 
+/* this is the color for the note bar */
 #wordcolor{
 	background: #FFCC00;
 
 }
+
+/* this is for the text in the note bar */
 .wc{
 	color: #FF0000;
 	line-height: 90%;
@@ -38,7 +48,7 @@ p {
 	margin-left: 5%;
 }
 
-
+/* thisis the main header that sayd video games */
 h1 {
 	color: #232323;
 	text-align:center;
@@ -48,6 +58,7 @@ h1 {
 	
 }
 
+/* this is the settings for the uses, different consoles, and different genres headers */
 h2 {
 	color: #232323;
 	font-family: Courier New, Verdana, sans-serif;
@@ -59,7 +70,7 @@ h2 {
 	
 }
 
-
+/* images header */
 h3 {
 	
 	color: #232323;
@@ -70,28 +81,31 @@ h3 {
 	text-indent: 20px;
 }
 
-
+/* the ordered lists under diffent consoles and different genres */
 ol{ 
 	 list-style-type: upper-roman;
 
 }
 
+/* top navagation links list */
 ul{
 	list-style-type: none;
 	display: inline;
 }
 
-
+/* images links under the images */
 a {
 	display: inline-block; 
 	text-decoration: none;	
 	text-align: center;
 }
 
+/* border around images */
 a.a2 {
 	border: 2px solid red;
 	
 }
+
 
 a.a1 {
 	color: #FF0004;
@@ -100,38 +114,45 @@ a.a1 {
 	
 }
 
+/* normal page link colors */
 a:link {
 	color: #000000;
 }
 
+/* visited link color */
 a:visited {
 	color: #000099;
 }
 
+/* hover over images color */
 a.a2:hover {
 	border: 2px solid black;
 }
 
+/* hover over text under images */
 a:a1:hover {
 	border:none;
 }
 
-
+/* top navagation links hover */
 a.tn:hover {
 	color: #00FF00;
 	display: inline;
 }
 
+
+/* bottom links hover color */
 a.botlink:hover{
 	color: #FF9900;
 }
 
+/* bottom links visited color */
 a:visited {
 	color: #000099;
 }
 
 
-
+/* custom font */
 @font-face {
     font-family: 'slant';
     src: url('fonts/SLANT.woff');
@@ -141,18 +162,22 @@ format('TTF');
 format('TTF');
 }
 
+/* uses icon */
 #Uses::before {
 	 content: url('../images/icon1.png');
 }
-	
+
+/* different consoles icon */
 #History::before {
 	 content: url('../images/icon2.png');
 }
 
+/* differnet genres icon */
 #Genres::before {
 	 content: url('../images/icon33.png');
 }
 
+/* images box settings */
 .imagesclass {
 	margin-left: 5%;
 	margin-right: 7%;
@@ -170,7 +195,5 @@ format('TTF');
 	float: right;
 }
 
-#dcpara{
-	margin-left: 5%;
-}
+
 
