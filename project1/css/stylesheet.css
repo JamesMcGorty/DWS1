@@ -17,7 +17,7 @@ p {
 
 .page{
 	border-radius: 25px;
-	float: left;
+	float: right;
 	background: linear-gradient(#FFFFFF, #999999);
 	margin-left: 10%;
 	margin-right: 10%;
@@ -167,6 +167,6 @@ format('TTF');
 	
 	border-radius: 25px;
 	box-shadow: 5px 5px 5px #373636;
-	float: left;
+	float: right;
 }
 
