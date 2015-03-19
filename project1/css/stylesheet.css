@@ -88,10 +88,18 @@ ol{
 
 }
 
+/* top navagation links properties */
+.tn{
+	diplay: inline;
+	margin-left: 5%;
+	
+}
+
 /* top navagation links list */
 ul{
 	list-style-type: none;
 	display: inline;
+	margin-left: 5px;
 }
 
 /* images links under the images */
@@ -138,7 +146,6 @@ a:a1:hover {
 /* top navagation links hover */
 a.tn:hover {
 	color: #00FF00;
-	display: inline;
 }
 
 
@@ -192,6 +199,8 @@ format('woff');
 	box-shadow: 5px 5px 5px #373636;
 	float: right;
 }
+
+
 
 
 
