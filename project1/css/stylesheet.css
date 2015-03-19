@@ -23,10 +23,10 @@ p {
 /* this is for the center part of the page with all the content */
 .page{
 	border-radius: 25px;
-	float: right;
 	background: linear-gradient(#FFFFFF, #999999);
 	margin-left: 10%;
 	margin-right: 10%;
+	clear:both;
 }
 
 /* this it for the color in the first paragraph */
