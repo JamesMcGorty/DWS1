@@ -31,11 +31,10 @@ p {
 
 }
 .wc{
-	margin-left: 50px;
 	color: #FF0000;
 	line-height: 90%;
 	width: 60%;
-	margin-left: 5%;
+	margin-left: 30%;
 }
 
 
@@ -77,7 +76,8 @@ ol{
 }
 
 ul{
-	list-style-type: circle;
+	list-style-type: none;
+	display: inline;
 }
 
 
@@ -138,11 +138,6 @@ format('TTF');
 	font-family: 'hawaii';
     src: url('fonts/Hawaii.TTF');
 format('TTF');
-}
-
-li {
-	display: inline;
-	
 }
 
 #Uses::before {
