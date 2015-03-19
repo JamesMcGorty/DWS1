@@ -134,10 +134,10 @@ a:visited {
 
 @font-face {
     font-family: 'slant';
-    src: url('fonts/SLANT.TTF');
+    src: url('fonts/SLANT.woff');
 format('TTF');
 	font-family: 'hawaii';
-    src: url('fonts/Hawaii.TTF');
+    src: url('fonts/Hawaii.woff');
 format('TTF');
 }
 
