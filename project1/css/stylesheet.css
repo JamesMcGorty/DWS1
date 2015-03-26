@@ -239,3 +239,13 @@ table {
 .year:hover{
 	background-color: #000000;
 }
+
+header{
+	color: #666666;
+	text-align: center;
+}
+
+footer{
+	color: #FFFFFF;
+	text-align: center;
+}
