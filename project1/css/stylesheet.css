@@ -165,7 +165,7 @@ a:visited {
 @font-face {
     font-family: 'SLANT';
     src: url('../fonts/SLANT.woff');
-format('WOFF');
+format('.woff');
 }
 
 /* uses icon */
