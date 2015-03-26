@@ -195,6 +195,8 @@ table {
 	border: 4px;
 	padding: 4px;
 	border-spacing: 3px;
+	text-align:center;
+	font-size: 15px;
 }
 
 .sony{
