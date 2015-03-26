@@ -221,3 +221,19 @@ table {
 	
 }
 
+.sony:hover{
+	background-color: #c3e6e5;
+}
+
+.microsoft:hover{
+	background-color: #000099;
+}
+	
+.nintendo:hover{
+	background-color: #0066FF;
+	
+}
+
+.year:hover{
+	background-color: #000000;
+}
