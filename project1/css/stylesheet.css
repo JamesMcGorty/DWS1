@@ -116,14 +116,6 @@ a.a2 {
 	
 }
 
-
-a.a1 {
-	color: #FF0004;
-	border:none;
-	padding:4%;
-	
-}
-
 /* normal page link colors */
 a:link {
 	color: #000000;
@@ -139,10 +131,6 @@ a.a2:hover {
 	border: 2px solid black;
 }
 
-/* hover over text under images */
-a:a1:hover {
-	border:none;
-}
 
 /* top navagation links hover */
 a.tn:hover {
