@@ -1,7 +1,7 @@
 ﻿<!doctype html>
 <html>
 <head>
-<title>James McGorty Project 2</title>
+<title>index.html</title>
 <link href="css/stylesheet.css" rel="stylesheet"/>
 
 </head>
@@ -84,6 +84,7 @@
   
     
     <!--the uses section --> 
+    <div id="leftside">
     <h2 id="Uses">
         Uses</h2>
     <div id="colorp">
@@ -127,6 +128,39 @@ Xbox (stylized as XBOX) is a video gaming brand created and owned by Microsoft. 
 	<p>
 PlayStation (Japanese: プレイステーション Hepburn: Pureisutēshon?, officially abbreviated PS) is a series of video game consoles created and developed by Sony Computer Entertainment. The brand was first introduced on December 3, 1994 in Japan with the launch of the original PlayStation console.[1] It now consists of four home consoles, as well as a media center, an online service, a line of controllers, two handhelds and a phone, as well as multiple magazines.
 	</p>
+    
+        <table>
+      <tr>
+      <th>Year</th>
+        <th class="sony">Sony</th>
+        <th class="nintendo">Nintendo</th>
+        <th class="microsoft">Microsoft</th>
+      </tr>
+      <tr>
+        <td class="year">1980's</td>
+        <td class="sony">None</td>
+        <td class="nintendo">NES</td>
+        <td class="microsoft">none</td>
+      </tr>
+      <tr>
+        <td class="year">1990's</td>
+        <td class="sony">Playstation</td>
+        <td class="nintendo">Nintendo 64</td>
+        <td class="microsoft">none</td>
+      </tr>
+       <tr>
+        <td class="year">2000-05</td>
+        <td class="sony">Playstation 2</td>
+        <td class="nintendo">Wii</td>
+        <td class="microsoft">Xbox</td>
+      </tr>
+       <tr>
+        <td class="year">2005-15</td>
+        <td class="sony">Playstation 3, 4</td>
+        <td class="nintendo">Wii U</td>
+        <td class="microsoft">Xbox 360, One</td>
+      </tr>
+    </table>
 
 	<!--this is the different types of genres for games section--> 
 	<h2 id="Genres">
@@ -137,9 +171,82 @@ PlayStation (Japanese: プレイステーション Hepburn: Pureisutēshon?, off
             <li>Action / Adventure</li>
             <li>Horror</li>
 		</ol>
+        </div>
     
-    <!--these are the bottom links to the top of the page and the main wiki page where the info was gotten--> 
-    	<p>
+     
+    	
+         <!--submissions--> 
+         
+            <form
+        action="http://example.com/join.php"
+        method="post">
+        
+        <p>
+        
+         <label for="email">Email:</label> <br />
+         <input email="email" name="email"
+                maxlength="30" 
+                id="email" 
+                required="required" /> <br />
+                
+        <label for="username">Username:</label> <br />
+        <input type="text" name="username"
+            required="required"
+                maxlength="30" 
+                id="username" /> <br />
+                
+        <label for="password">Password:</label> <br />
+        <input type="text" name="password"
+                maxlength="30" 
+                id="password"
+                required="required" />
+                
+                </p>
+                
+        <p>Select your Favorite console: <br />
+        
+       <input type="radio" name="console"
+        value="Play Station 4" checked="checked"  /> Play Station 4
+        
+       <input type="radio" name="console"
+        value="Xbox One" /> Xbox One
+        
+       <input type="radio" name="console"
+        value="Xbox 360" /> Xbox 360
+        
+       <input type="radio" name="console"
+        value="Play Station 3" /> Playstatio 3
+        
+        </p>
+        
+    <p>Favorite type of game
+        <select name="Favorite type of game">
+        
+        <option value="FPS"
+        selected="selected">FPS</option>
+        
+        <option value="Action Adventure">Action Adventure</option>
+        
+        <option value="Horror">Horror</option>
+        
+        <option value="Sports">Sports</option>
+        
+    </select>
+    
+    </p>
+    
+    <p>
+        <input type="submit"
+        value="submit" />
+    </p>
+    
+        
+    </form>
+        
+        <p>
+        
+        <!--these are the bottom links to the top of the page and the main wiki page where the info was gotten-->
+        
     <a class="botlink" href="#Top">Top</a>
     
     
